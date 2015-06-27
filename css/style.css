@@ -1,11 +1,43 @@
-
 body {
+	padding-top:50px; 
+  height: 150px;
+  background-image: linear-gradient(-45deg,
+    #fff 25%,
+    #ffc0cb 25%, #ffc0cb 50%,
+    #fff 50%, #fff 75%,
+    #ffc0cb 75%, #ffc0cb
+  ););
+  background-size: 50px 50px;
+}
+@font-face {
+    font-family: 'ニコモジ＋';
+    src: url('nicomoji-plus_v0.9.ttf') format('truetype');
+}
+h2 {
+  font-family: 'ニコモジ＋';
+  font-size: 40px
 
-  background-color: #FFCC99;
 }
 
+.navbar-brand {
+  background: url("../img/logo.png") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
+}
 .navbar {
+	border-color: white;
+	background: white;
 
-  background: #FF9900;
+}
 
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.form {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  background: white;
 }
