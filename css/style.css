@@ -9,14 +9,51 @@ body {
   ););
   background-size: 50px 50px;
 }
+
 @font-face {
     font-family: 'ニコモジ＋';
     src: url('nicomoji-plus_v0.9.ttf') format('truetype');
 }
+
+h1 {
+  font-family: 'ニコモジ＋';
+  font-size: 36px;
+}
+
 h2 {
   font-family: 'ニコモジ＋';
-  font-size: 40px
+  font-size: 40px;
 
+}
+
+h3 {
+  font-family: 'ニコモジ＋';
+  font-size: 40px;
+}
+
+p {
+  font-family: 'ニコモジ＋';
+  font-size: 25px;
+}
+
+
+.box-3-1 p {
+  font-size: 18px;
+
+}
+
+.box-txt{
+  color: black;
+
+}
+
+.title h3 p{
+  background: white;
+}
+
+.navbar-nav.navbar-right{
+  font-family: 'ニコモジ＋';
+  font-size: 20px;
 }
 
 .navbar-brand {
@@ -25,16 +62,32 @@ h2 {
   height: 50px;
   width: 250px;
 }
+
 .navbar {
 	border-color: white;
 	background: white;
 
 }
 
+.page-header {
+  background-color: white;
+}
+
+.fa-external-link:before {
+  content: url(pondelion.png);
+}
+
+.fa-chevron-circle-right:before {
+  content: url(pondelion.png);
+}
+
+
 .row {
+  padding-top: 15px;
   margin-left: -10px;
   margin-right: -10px;
 }
+
 .form {
   margin: 0 auto;
   width: 80%;
